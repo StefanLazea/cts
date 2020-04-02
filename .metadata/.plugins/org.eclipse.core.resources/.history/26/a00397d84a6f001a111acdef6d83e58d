@@ -1,0 +1,21 @@
+package teste;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import clase.Persoana;
+
+public class PersoanaTests {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+	
+	@Test
+	public void testGetVarstaRight() {
+		Persoana pers = new Persoana("nume", "1971227030015");
+		assertEquals(21, pers.getVarsta());
+	}
+}

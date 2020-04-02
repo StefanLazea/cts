@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="seminar5" project="seminar5" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="teste.PersoanaTests" time="0.001">
+    <testcase name="testGetVarstaError" classname="teste.PersoanaTests" time="0.001"/>
+    <testcase name="testGetVarstaBoundary1900" classname="teste.PersoanaTests" time="0.0"/>
+    <testcase name="testGetVarstaBoundary2000" classname="teste.PersoanaTests" time="0.0"/>
+    <testcase name="testGetVarstaRight1900" classname="teste.PersoanaTests" time="0.0"/>
+    <testcase name="testGetVarstaRight2000" classname="teste.PersoanaTests" time="0.0"/>
+    <testcase name="testGetVarstaBoundarySuperior1900" classname="teste.PersoanaTests" time="0.0"/>
+    <testcase name="testGetVarstaBoundarySuperior2000" classname="teste.PersoanaTests" time="0.0"/>
+    <testcase name="testGetVarstaNascutaInViitor" classname="teste.PersoanaTests" time="0.0"/>
+  </testsuite>
+</testrun>

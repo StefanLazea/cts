@@ -1,0 +1,55 @@
+package teste;
+
+import static org.junit.Assert.*;
+
+import java.util.Calendar;
+
+import org.junit.Test;
+
+import clase.Persoana;
+
+public class PersoanaTests {
+
+	// test de corectitudine (R-BICEP)
+	// mai multe teste; mai multe seturi de date
+	// complexitatea ciclomatica (3 if-uri)
+	
+	@Test
+	public void testGetVarstaRight1900() {
+		Persoana pers = new Persoana("nume", "1971227030015");
+		assertEquals(22, pers.getVarsta());
+	}
+	 
+	@Test
+	public void testGetVarstaRight2000() {
+		Persoana pers = new Persoana("nume", "503080030015");
+		assertEquals(16, pers.getVarsta());
+	}
+	
+	
+	@Test
+	public void testGetVarstaBoundary1900() {
+		Persoana pers = new Persoana("nume", "10001010030015");
+		assertEquals(120, pers.getVarsta());
+	}
+	
+	@Test
+	public void testGetVarstaBoundarySuperior1900() {
+		Persoana pers = new Persoana("nume", "19912310030015");
+		assertEquals(20, pers.getVarsta());
+	}
+	
+	@Test
+	public void testGetVarstaBoundary2000() {
+		Persoana pers = new Persoana("nume", "5000101676503");
+		assertEquals(20, pers.getVarsta());
+	}
+	@Test
+	public void testGetVarstaBoundarySuperior2000() {
+		Calendar dataCurenta = Calendar.getInstance();
+
+		Persoana pers = new Persoana("nume", "5000101676503");
+		assertEquals(20, pers.getVarsta());
+	}
+	
+}

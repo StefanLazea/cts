@@ -1,0 +1,8 @@
+package exceptii;
+
+public class CnpContainsLettersException extends IllegalArgumentException{
+ 
+	public CnpWrongFormatException(String mesaj) {
+		super(mesaj);
+	}
+}

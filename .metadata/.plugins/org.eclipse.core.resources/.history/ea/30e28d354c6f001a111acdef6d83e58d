@@ -1,0 +1,30 @@
+package teste;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import clase.Persoana;
+
+public class PersoanaTests {
+
+	// test de corectitudine (R-BICEP)
+	// mai multe teste; mai multe seturi de date
+	// complexitatea ciclomatica (3 if-uri)
+	
+	@Test
+	public void testGetVarstaRight1900() {
+		Persoana pers = new Persoana("nume", "1971227030015");
+		assertEquals(22, pers.getVarsta());
+	}
+	 
+	@Test
+	public void testGetVarstaRight2000() {
+		Persoana pers = new Persoana("nume", "503080030015");
+		assertEquals(16, pers.getVarsta());
+	}
+	
+	
+	// boundary
+	
+}

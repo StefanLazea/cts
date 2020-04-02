@@ -1,0 +1,7 @@
+package exceptii;
+
+public class FirstLetterException extends IllegalArgumentException {
+	public FirstLetterException(String mesaj) {
+		super(mesaj);
+	}
+}
