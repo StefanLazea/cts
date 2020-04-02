@@ -6,6 +6,7 @@ import org.junit.Test;
 
 import clase.Persoana;
 import exceptii.CnpContainsLettersException;
+import exceptii.CnpIsNullException;
 import exceptii.CnpWrongFormatException;
 import exceptii.CnpWrongFirstLetterException;
 
@@ -35,6 +36,24 @@ public class PersoanaCheckCNPTests {
 		Persoana pers = new Persoana("nume2", "0971227030015");
 		pers.checkCNP();
 	}
-
+    
+	// teste de corectitudine (cele din Right)
+	@Test
+	public void testCheckForValidCNP() {
+		Persoana pers = new Persoana("nume", "1971227030015");
+		assertTrue(pers.checkCNP());
+	}
 	
+	// test de corectitudine
+	@Test
+	public void testCheckForInvalidCNP() {
+		Persoana pers = new Persoana("nume", "1971227030011");
+		assertFalse(pers.checkCNP());
+	}
+	
+	@Test(expected = CnpIsNullException.class)
+	public void textExistance() {
+		Persoana pers = new Persoana("nume", null);
+		pers.checkCNP();
+	}
 }

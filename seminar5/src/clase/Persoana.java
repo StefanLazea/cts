@@ -4,6 +4,7 @@ import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
 
 import exceptii.CnpContainsLettersException;
+import exceptii.CnpIsNullException;
 import exceptii.CnpWrongFirstLetterException;
 import exceptii.CnpWrongFormatException;
 
@@ -16,7 +17,6 @@ public class Persoana implements IPersoana{
 		this.nume="Nume initial";
 		this.CNP="1000000000001";
 	}
-	
 	
 	public Persoana(String nume, String CNP){
 		this.nume=nume;
@@ -66,19 +66,24 @@ public class Persoana implements IPersoana{
 	public boolean checkCNP(){
 		int s=0;	
 		boolean rezultat = false;
+		if(CNP == null) {
+			throw new CnpIsNullException("CNP este null");
+		}
 		if(CNP.charAt(0) == '0') {
 			throw new CnpWrongFirstLetterException("CNP incepe cu 0");
 		}
-		if(CNP.length()!=13)
+		if(CNP.length()!=13) {
 			throw new CnpWrongFormatException("CNP-ul nu are lungimea corecta");
+		}
 		String number="279146358279";
 		try{
 			for(int i=0;i<12;i++){
 				s+=Integer.parseInt(""+number.charAt(i))*Integer.parseInt(""+CNP.charAt(i));			
 			}
 			int cifra=s%11;
-			if(cifra==10)
+			if(cifra==10) {
 				cifra=1;
+			}
 			rezultat=cifra==Integer.parseInt(""+CNP.charAt(12));
 		}catch(Exception ert)
 		{

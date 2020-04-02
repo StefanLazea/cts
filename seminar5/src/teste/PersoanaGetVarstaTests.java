@@ -92,4 +92,11 @@ public class PersoanaGetVarstaTests {
 		Persoana pers = new Persoana("nume", "1971227030015");
 		pers.getVarsta();
 	}
+	
+	@Test
+	public void testOrdering() {
+		Persoana pers = new Persoana("nume", "1971227030015");
+		Persoana pers2 = new Persoana("nume", "19501227030015");
+		assertTrue(pers.getVarsta() < pers2.getVarsta());		
+	}
 }
