@@ -56,4 +56,5 @@ public class PersoanaCheckCNPTests {
 		Persoana pers = new Persoana("nume", null);
 		pers.checkCNP();
 	}
+
 }

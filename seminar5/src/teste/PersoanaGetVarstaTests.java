@@ -99,4 +99,10 @@ public class PersoanaGetVarstaTests {
 		Persoana pers2 = new Persoana("nume", "19501227030015");
 		assertTrue(pers.getVarsta() < pers2.getVarsta());		
 	}
+	
+	@Test
+	public void testCardinalityFor1() {
+		Persoana pers = new Persoana("nume", "6190303030015");
+		assertEquals(pers.getVarsta(), 1);
+	}
 }
