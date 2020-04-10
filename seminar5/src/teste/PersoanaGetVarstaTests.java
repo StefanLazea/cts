@@ -5,8 +5,11 @@ import static org.junit.Assert.*;
 import java.util.Calendar;
 
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
 import clase.Persoana;
+import teste.categorii.CategorieTestePersoaneTinere;
+import teste.categorii.CategorieTestePersoaneVarstnice;
 
 public class PersoanaGetVarstaTests {
 
@@ -15,12 +18,14 @@ public class PersoanaGetVarstaTests {
 	// complexitatea ciclomatica (3 if-uri)
 	
 	@Test
+	@Category(CategorieTestePersoaneTinere.class)
 	public void testGetVarstaRight1900() {
 		Persoana pers = new Persoana("nume", "1971227030015");
 		assertEquals(22, pers.getVarsta());
 	}
 	 
 	@Test
+	@Category(CategorieTestePersoaneTinere.class)
 	public void testGetVarstaRight2000() {
 		Persoana pers = new Persoana("nume", "503080030015");
 		assertEquals(16, pers.getVarsta());
@@ -28,6 +33,7 @@ public class PersoanaGetVarstaTests {
 	
 	
 	@Test
+	@Category(CategorieTestePersoaneVarstnice.class)
 	public void testGetVarstaBoundary1900() {
 		Persoana pers = new Persoana("nume", "10001010030015");
 		assertEquals(120, pers.getVarsta());
@@ -68,6 +74,7 @@ public class PersoanaGetVarstaTests {
 	}
 	
 	@Test(expected = IllegalArgumentException.class)
+	@Category({CategorieTestePersoaneVarstnice.class, CategorieTestePersoaneTinere.class})
 	public void testGetVarstaError() {
 		Persoana pers = new Persoana("nume", "000030899998");
 		pers.getVarsta();

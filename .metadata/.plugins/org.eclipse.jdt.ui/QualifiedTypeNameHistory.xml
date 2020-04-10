@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="clase.Persoana"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="clase.Persoana"/>
+<fullyQualifiedTypeName name="exceptii.CnpWrongFormatException"/>
+<fullyQualifiedTypeName name="exceptii.CnpContainsLettersException"/>
+<fullyQualifiedTypeName name="exceptii.FirstLetterException"/>
+<fullyQualifiedTypeName name="exceptii.CnpWrongFirstLetterException"/>
 <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="exceptii.CnpIsNullException"/>
+<fullyQualifiedTypeName name="teste.dubluri.PersoanaStub"/>
+<fullyQualifiedTypeName name="clase.IPersoana"/>
+<fullyQualifiedTypeName name="teste.dubluri.PersoanaFake"/>
+<fullyQualifiedTypeName name="clase.PachetTuristic"/>
+<fullyQualifiedTypeName name="org.junit.experimental.categories.Categories.IncludeCategory"/>
+<fullyQualifiedTypeName name="teste.categorii.CategorieTestePersoaneVarstnice"/>
+<fullyQualifiedTypeName name="org.junit.experimental.categories.Category"/>
+<fullyQualifiedTypeName name="org.junit.experimental.categories.Categories"/>
+<fullyQualifiedTypeName name="org.junit.experimental.categories.Categories.ExcludeCategory"/>
+<fullyQualifiedTypeName name="teste.categorii.CategorieTestePersoaneTinere"/>
 </qualifiedTypeNameHistroy>
