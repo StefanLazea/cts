@@ -1,5 +1,5 @@
 package teste.categorii;
 
-public class CategorieTestePersoaneTinere {
+public interface CategorieTestePersoaneTinere {
 
 }

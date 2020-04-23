@@ -31,6 +31,19 @@ public class PersoanaGetVarstaTests {
 		assertEquals(16, pers.getVarsta());
 	}
 	
+	@Test
+	@Category(CategorieTestePersoaneVarstnice.class)
+	public void testGetVarstaBoundary1800() {
+		Persoana pers = new Persoana("nume", "30001010030015");
+		assertEquals(220, pers.getVarsta());
+	}
+	
+	@Test
+	@Category(CategorieTestePersoaneVarstnice.class)
+	public void testGetVarstaBoundarySuperior1800() {
+		Persoana pers = new Persoana("nume", "39912310030015");
+		assertEquals(120, pers.getVarsta());
+	}
 	
 	@Test
 	@Category(CategorieTestePersoaneVarstnice.class)

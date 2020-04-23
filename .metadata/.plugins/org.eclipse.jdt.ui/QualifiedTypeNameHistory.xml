@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
-<fullyQualifiedTypeName name="clase.Persoana"/>
 <fullyQualifiedTypeName name="exceptii.CnpWrongFormatException"/>
 <fullyQualifiedTypeName name="exceptii.CnpContainsLettersException"/>
 <fullyQualifiedTypeName name="exceptii.FirstLetterException"/>
 <fullyQualifiedTypeName name="exceptii.CnpWrongFirstLetterException"/>
 <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 <fullyQualifiedTypeName name="exceptii.CnpIsNullException"/>
-<fullyQualifiedTypeName name="teste.dubluri.PersoanaStub"/>
 <fullyQualifiedTypeName name="clase.IPersoana"/>
-<fullyQualifiedTypeName name="teste.dubluri.PersoanaFake"/>
-<fullyQualifiedTypeName name="clase.PachetTuristic"/>
-<fullyQualifiedTypeName name="org.junit.experimental.categories.Categories.IncludeCategory"/>
 <fullyQualifiedTypeName name="teste.categorii.CategorieTestePersoaneVarstnice"/>
-<fullyQualifiedTypeName name="org.junit.experimental.categories.Category"/>
-<fullyQualifiedTypeName name="org.junit.experimental.categories.Categories"/>
-<fullyQualifiedTypeName name="org.junit.experimental.categories.Categories.ExcludeCategory"/>
 <fullyQualifiedTypeName name="teste.categorii.CategorieTestePersoaneTinere"/>
+<fullyQualifiedTypeName name="clase.Persoana"/>
+<fullyQualifiedTypeName name="org.junit.experimental.categories.Categories.ExcludeCategory"/>
+<fullyQualifiedTypeName name="teste.categorii.CategorieTestePersoaneNascuteDupa2000"/>
+<fullyQualifiedTypeName name="teste.categorii.CategorieTestePersoaneNascuteInainte2000"/>
+<fullyQualifiedTypeName name="teste.dubluri.PersoanaFake"/>
+<fullyQualifiedTypeName name="teste.AgentieTurismTests"/>
+<fullyQualifiedTypeName name="org.junit.BeforeClass"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="clase.AgentieTurism"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="teste.dubluri.PersoanaStub"/>
+<fullyQualifiedTypeName name="clase.PachetTuristic"/>
+<fullyQualifiedTypeName name="org.junit.experimental.categories.Categories"/>
+<fullyQualifiedTypeName name="org.junit.experimental.categories.Categories.IncludeCategory"/>
+<fullyQualifiedTypeName name="org.junit.experimental.categories.Category"/>
+<fullyQualifiedTypeName name="teste.categorii.CategorieTesteAgentieTurism"/>
 </qualifiedTypeNameHistroy>
