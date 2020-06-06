@@ -22,7 +22,6 @@ public class RezervareBuilder implements IBuilder {
 		return this;
 	}
 
-
 	public RezervareBuilder setDecorareaMesei(String decorareaMesei) {
 		this.rezervare.decorareaMesei = decorareaMesei;
 		return this;
