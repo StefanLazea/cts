@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="clase.Politie"/>
-    <fullyQualifiedTypeName name="clase.Anaf"/>
-    <fullyQualifiedTypeName name="clase.Facade"/>
-    <fullyQualifiedTypeName name="clase.ICard"/>
-    <fullyQualifiedTypeName name="clase.DecoratorCard"/>
-    <fullyQualifiedTypeName name="clase.DecoratorCardAbstract"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="clase.CreditNevoi"/>
     <fullyQualifiedTypeName name="clase.AdapterCredit"/>
     <fullyQualifiedTypeName name="clase.framework_achizitionat.CreditLeasing"/>
@@ -60,4 +53,11 @@
     <fullyQualifiedTypeName name="clase.Angajator"/>
     <fullyQualifiedTypeName name="clase.RaspunsNegativ"/>
     <fullyQualifiedTypeName name="clase.Candidat"/>
+    <fullyQualifiedTypeName name="boja.clase.SimpleFactorySingleton"/>
+    <fullyQualifiedTypeName name="boja.clase.ContBancar"/>
+    <fullyQualifiedTypeName name="boja.clase.AdapterContCredit"/>
+    <fullyQualifiedTypeName name="boja.clase.ContCredit"/>
+    <fullyQualifiedTypeName name="boja.frameworkNou.BankAccount"/>
+    <fullyQualifiedTypeName name="boja.clase.ContDebit"/>
+    <fullyQualifiedTypeName name="boja.clase.AdapterContDebit"/>
 </qualifiedTypeNameHistroy>
