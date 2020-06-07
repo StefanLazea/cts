@@ -1,5 +1,5 @@
 package flyweight.clase;
 
-public interface IPublic {
+public interface ISpectator {
 	void descriePublic(Optionale optionale);
 }

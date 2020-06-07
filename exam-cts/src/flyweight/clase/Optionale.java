@@ -8,6 +8,7 @@ public class Optionale {
 		super();
 		this.pozitie = pozitie;
 		this.culoareTricou = culoareTricou;
+
 	}
 
 	public String getPozitie() {
@@ -24,6 +25,11 @@ public class Optionale {
 
 	public void setCuloareTricou(String culoareTricou) {
 		this.culoareTricou = culoareTricou;
+	}
+
+	@Override
+	public String toString() {
+		return "Optionale [pozitie=" + pozitie + ", culoareTricou=" + culoareTricou + "]";
 	}
 
 }
