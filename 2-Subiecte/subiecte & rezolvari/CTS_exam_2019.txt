@@ -1,0 +1,6 @@
+I. Singleton prototype template facade
+II. Simple factory,builder, adapter, observer, decorator, proxy, strategy
+III. Flyweight, composite, command, state
+
+doar astea intraun la examenul din 2019
+cifrele romane reprezinta dificultatea dp urilor

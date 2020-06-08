@@ -1,0 +1,52 @@
+Fixture – set de obiecte utilizate în test
+- Test Case – clasă ce definește setul de obiecte (fixture) pentru a rula mai multe teste
+- Setup – o metodă/etapă de definire a setului de obiecte utilizate (fixture), înainte de
+testare.
+- Teardown – o metodă/etapă de distrugere a obiectelor (fixture) după terminarea testelor
+- Test Suite – colecție de cazuri de testare (test cases)
+- Test Runner – instrument de rulare a testelor (test suite) și de afișare a rezultatelor
+
+setUpBeforeClass = junit 4 -> beforeClass
+    setUp                       -> before
+    tearDown                    -> after 
+tearDownBeforeClass         -> AfterClass
+
+
+RIGHT – dacă rezultatele furnizate de către metodă sunt corecte;
+
+Boundary
+    - determinarea intervalului (limitele acestuia) pentru datele de intrare si pentru rezultatele furnizate de metoda
+    - testarea in limite (de regula, inf si sup) = verificarea corectitudinii
+Inverse
+    - pornind de la rezultat, trebuie sa se ajunga la aceeasi intrare ca la inceput
+    - metode matematice (sau BD)
+CrossCheck
+    - testam utilizand alta metoda
+    - cand avem o metoda noua, o verificam cu cea veche
+Errors
+    - testarea utilizeaza valori din afara intervalului pentru a depista erorile sau momentele in care crapa aplicatia
+Performance
+    - cat de bine functioneaza 
+    - dpdv al resurselor consumate si al timpului necesar pentru obtinerea rezultatelor
+    - @Test(timeout=100)
+
+
+CORRECT:
+
+
+
+
+Creationale 
+    - Singleton
+    - Builder
+    - Factory
+    - Factory Method
+    - prototype
+
+
+
+Builder:
+    - setterii trebuie sa fie privati
+
+Flyweight
+    - getPersoana -> crea sau returna persoana gasita

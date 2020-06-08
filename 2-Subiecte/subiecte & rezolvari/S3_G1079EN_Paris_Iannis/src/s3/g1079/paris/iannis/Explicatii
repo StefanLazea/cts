@@ -1,0 +1,4 @@
+1. Primul dp este template intrucat se este specificat faptul ca pasii pe care un anumite service auto trebuie 
+sa-i urmeze sunt intr o ordine fixa si pot fi modificati de ficare service in parte
+2. Al doilea dp este proxy intrucat ca o masina sa poate fi programata trebuie sa treaca prin anumite verificari(validari)
+3. Al treilea dp este command intrucat procesarea inspectiilor nu se poate realiza pe loc.

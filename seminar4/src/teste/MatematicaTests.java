@@ -34,8 +34,8 @@ public class MatematicaTests {
 
 	@Test
 	public void testRaportCuZecimale() {
-		double rezultatObtinut = mate.raport(10, 2);
-		double rezultatAsteptat = 5;
+		double rezultatObtinut = mate.raport(1, 2);
+		double rezultatAsteptat = 0.5;
 
 		assertEquals(rezultatAsteptat, rezultatObtinut, 0.1);
 	}
